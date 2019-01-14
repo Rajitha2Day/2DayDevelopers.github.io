@@ -1,0 +1,48 @@
+body{
+    background: #3333;
+    color: rgb(255, 255, 255);
+}
+.navbar {
+    border-bottom:#008ed6 3px solid;
+    
+}
+
+
+#home-section{
+    background: url( ../images/home1.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home-section.dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7)
+}
+#home-section.home-inner{
+    padding-top: 150px;
+}
+
+#home-section.card-form{
+    opacity: 0.8;
+}
+#about-us-section .fas, #home-section .fas, #creat-section .fas,#computer-section .fas{
+    color:#008ed6;
+    background: #fff;
+    padding: 5px;
+
+    
+}
+home-section
+
+#home-section  #login{
+    opacity: 0.8;
+margin-top: 10px;
+}
+#computer-section #image1,  #home-section #image1,  #creat-section #image1, #about-us-section  #image1{
+    border-radius: 3%
+}
